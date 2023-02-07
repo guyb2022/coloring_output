@@ -1,0 +1,16 @@
+Source path:... C:\Users\berge\Desktop\OpenSourceProjects\pysnooper\main.py
+Starting var:.. number = 10
+09:34:37.062791 call         9 def number_to_bits(number):
+09:34:37.064776 line        10     if number:
+09:34:37.064776 line        11         bits = []
+New var:....... bits = []
+09:34:37.065776 line        12         while number:
+09:34:37.065776 line        13             number, remainder = divmod(number, 2)
+Modified var:.. number = 5
+New var:....... remainder = 0
+09:34:37.065776 line        14             bits.insert(0, remainder)
+Modified var:.. bits = [0]
+09:34:37.066776 line        15             return bits
+09:34:37.067787 return      15             return bits
+Return value:.. [0]
+Elapsed time: 00:00:00.004996
